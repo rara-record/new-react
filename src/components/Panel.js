@@ -12,24 +12,26 @@ function Panel() {
 	return (
 		<>
 			<button style={btnStyle} onClick={() => changeArr('Escape')}>button</button>
-			{
-				arr.map((data, index) => {
-					let style = { transform: `rotate(${deg * index}deg) translateY(-100vh)` }
-					let imgSrc = `${path}/img/${data}.jpg`
+			<section>
+				{
+					arr.map((data, index) => {
+						let style = { transform: `rotate(${deg * index}deg) translateY(-100vh)` }
+						let imgSrc = `${path}/img/${data}.jpg`
 
-					return (
-						<article key={index} style={style}>
-							<div className="inner">
-								<div className="pic">
-									<img src={imgSrc} alt="" />
+						return (
+							<article key={index} style={style}>
+								<div className="inner">
+									<div className="pic">
+										<img src={imgSrc} alt="" />
+									</div>
+
+									<h2>{data}</h2>
 								</div>
-
-								<h2>{data}</h2>
-							</div>
-						</article>
-					)
-				})
-			}
+							</article>
+						)
+					})
+				}
+			</section>
 		</>
 	)
 }
