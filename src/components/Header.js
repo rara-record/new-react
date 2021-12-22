@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* eslint-disable jsx-a11y/anchor-is-valid */
+=======
+/* eslint-disable jsx-a11y/anchor-is-valid  */
+>>>>>>> 1e0357c89d138c6b2e69d79493bd2b967d32d115
 
 function Logo() {
     return (
