@@ -1,18 +1,18 @@
-function Logo(){
-    return (        
+function Logo() {
+    return (
         <h1>
-            <strong>DECODELAB3</strong><br />
+            <strong>DCODELAB3</strong><br />
             <span>UI/UX DESIGN&DEVELOPMENT</span>
-        </h1> 
+        </h1>
     )
 }
 
-const Menu =()=>{
+const Menu = () => {
     return (
         <a href="#" className="menu">
             <i className="fas fa-bars"></i>
-        </a> 
-    )    
+        </a>
+    )
 }
 
-export {Logo, Menu};
+export { Logo, Menu };
