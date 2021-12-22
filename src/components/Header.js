@@ -1,7 +1,7 @@
 function Logo() {
     return (
         <h1>
-            <strong>DCODELAB11</strong><br />
+            <strong>DCODELAB2222</strong><br />
             <span>UI/UX DESIGN&DEVELOPMENT</span>
         </h1>
     )
